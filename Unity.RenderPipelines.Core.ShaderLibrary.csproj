@@ -18,7 +18,7 @@
     <LangVersion>9.0</LangVersion>
     <RootNamespace></RootNamespace>
     <OutputType>Library</OutputType>
-    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <AssemblyName>Unity.RenderPipelines.Core.ShaderLibrary</AssemblyName>
     <TargetFramework>netstandard2.1</TargetFramework>
     <BaseDirectory>.</BaseDirectory>
   </PropertyGroup>
@@ -49,9 +49,84 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\platformMovement.cs" />
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\movimiento.cs" />
+    <Compile Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\DummyShaderLibrary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\Validate.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Debug.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\HDROutput.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\WebGPU.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Sampling\SampleUVMappingInternal.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Random.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ThreadingSM6Impl.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Refraction.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\AmbientProbe.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\VertexCubeSlicing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\UnityInstancing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\DynamicScaling.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\SDF2D.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\EntityLighting.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Color.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\TextureXR.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ScreenCoordOverride.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Macros.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Sampling\Fibonacci.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\MostRepresentativePoint.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\CommonLighting.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\FoveatedRenderingKeywords.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Sampling\SampleUVMapping.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\FoveatedRendering.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\GLES3.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\CommonMaterial.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Filtering.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ShaderDebugPrint.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\Metal.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Sampling\Sampling.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\Vulkan.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\PhysicalCamera.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Common.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ACES.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\GraniteShaderLibBase.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\SpaceFillingCurves.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\DebugMipmapStreaming.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Unity.RenderPipelines.Core.ShaderLibrary.asmdef" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\VolumeRendering.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Version.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\NormalSurfaceGradient.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ParallaxMapping.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\SpaceTransforms.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\GLCore.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\BC6H.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\Switch2.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\GlobalSamplers.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\MetaPass.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\SphericalHarmonics.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\CommonShadow.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\Switch.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\FoveatedRendering_Metal.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\DebugMipmapStreamingMacros.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ThreadingEmuImpl.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\DynamicScalingClamping.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\TextureStack.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Texture.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\UnityDOTSInstancing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Sampling\SampleUVMappingNormalInternal.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\PerPixelDisplacement.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\SixWayLighting.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\AreaLighting.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Sampling\Hammersley.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\CommonDeprecated.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Hashes.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\API\D3D11.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Threading.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Packing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Tessellation.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\BSDF.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\ImageBasedLighting.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\GeometricTools.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\VirtualTexturing.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Shadow\ShadowSamplingTent.hlsl" />
+    <None Include="Library\PackageCache\com.unity.render-pipelines.core@ce614113b3ba\ShaderLibrary\Coverage.hlsl" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -590,6 +665,22 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\Managed\UnityEngine\UnityEditor.XRModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="UnityEditor.Graphs">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\Managed\UnityEditor.Graphs.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WebGL.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\PlaybackEngines\WebGLSupport\UnityEditor.WebGL.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\6000.3.5f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
@@ -598,12 +689,36 @@
       <HintPath>Library\PackageCache\com.unity.ext.nunit@d8c07649098d\net40\unity-custom\nunit.framework.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="log4netPlastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\log4netPlastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.IonicZip">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="System.IO.Hashing">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.IO.Hashing\System.IO.Hashing.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="unityplastic">
+      <HintPath>Library\PackageCache\com.unity.collab-proxy@1ec4e416a4af\Lib\Editor\unityplastic.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@191c0d7e3b69\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Mono.Cecil">
@@ -1104,58 +1219,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj" />
-    <ProjectReference Include="UnityEditor.UI.Analytics.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.csproj" />
-    <ProjectReference Include="Unity.Rendering.LightTransport.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Editor.Overrides.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Updater.csproj" />
-    <ProjectReference Include="Unity.Timeline.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Editor.csproj" />
-    <ProjectReference Include="PPv2URPConverters.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.Shared.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.2D.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj" />
-    <ProjectReference Include="Unity.Searcher.Editor.csproj" />
-    <ProjectReference Include="Unity.PlasticSCM.Editor.csproj" />
-    <ProjectReference Include="Unity.Burst.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Core.csproj" />
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj" />
-    <ProjectReference Include="Unity.UnifiedRayTracing.Runtime.csproj" />
-    <ProjectReference Include="Unity.Rider.Editor.csproj" />
-    <ProjectReference Include="Unity.AI.Navigation.Editor.ConversionSystem.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Flow.csproj" />
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualStudio.Editor.csproj" />
-    <ProjectReference Include="Unity.Collections.csproj" />
-    <ProjectReference Include="Unity.InputSystem.ForUI.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.GPUDriven.Runtime.csproj" />
-    <ProjectReference Include="Unity.Timeline.Editor.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj" />
-    <ProjectReference Include="Unity.Mathematics.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj" />
-    <ProjectReference Include="UnityEngine.UI.csproj" />
-    <ProjectReference Include="Unity.Multiplayer.Center.Common.csproj" />
-    <ProjectReference Include="Unity.Burst.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj" />
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.004.csproj" />
-    <ProjectReference Include="Unity.Multiplayer.Center.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj" />
-    <ProjectReference Include="Unity.VisualScripting.State.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj" />
-    <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj" />
-    <ProjectReference Include="Unity.Collections.Editor.csproj" />
-    <ProjectReference Include="Unity.ShaderGraph.Editor.csproj" />
-    <ProjectReference Include="Unity.RenderPipelines.Core.Editor.Shared.csproj" />
-    <ProjectReference Include="Unity.InputSystem.csproj" />
     <ProjectReference Include="UnityEditor.UI.csproj" />
+    <ProjectReference Include="UnityEngine.UI.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>
