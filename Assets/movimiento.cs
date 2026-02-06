@@ -6,6 +6,7 @@ public class movimiento : MonoBehaviour
     public float velocity = 1;
     public Rigidbody rg;
     public float jumpforce = 1;
+    public int score = 0;
 
     BoxCollider box;
     bool canJump = true;
@@ -24,7 +25,6 @@ public class movimiento : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if(Input.GetKey(KeyCode.W)){
             transform.position = new Vector3(transform.position.x + velocity*Time.deltaTime, transform.position.y, transform.position.z);
         }
@@ -49,6 +49,8 @@ public class movimiento : MonoBehaviour
         {
             canJump=false;
         }
+
+        
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -56,6 +58,14 @@ public class movimiento : MonoBehaviour
         if(collision.gameObject.tag == "Suelo")
         {
             canJump=true;
+        }
+
+    }
+
+        private void OnTriggerEnter(Collider other) {
+        if (other.CompareTag("Moneda"))
+        {
+            score++;
         }
     }
 }
